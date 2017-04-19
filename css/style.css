@@ -1,0 +1,14 @@
+body {
+  font-family: "PT Sans Narrow", "Arial", sans-serif;
+}
+
+.content-title, .features-name {
+  color: #000000;
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 42px;
+}
+
+.features-name {
+  color: #f7f4f1;
+}
