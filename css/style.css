@@ -1,14 +1,154 @@
+html,
 body {
+  min-width: 1122px;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+/*  background: #cccccc url("../img/back.jpg") no-repeat 50% 3px;
+  background-size: 2560px auto; */
   font-family: "PT Sans Narrow", "Arial", sans-serif;
 }
 
-.content-title, .features-name {
-  color: #000000;
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.container {
+  width: 940px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.main-header {
+  background-color: #000000;
+  margin-bottom: 60px;
+}
+
+.logo {
+  float: left;
+  margin-left: 20px;
+  margin-top: 23px;
+  width: 111px;
+}
+
+.main-navigation {
+  float: left;
+  min-height: 70px;
+  width: 600px;
+  padding-left: 18px;
+  font-size: 0;
+ }
+
+ .main-navigation li {
+   display: inline-block;
+   margin-right: 40px;
+   padding-top: 29px;
+   vertical-align: middle;
+   list-style-type: none;
+ }
+
+ .main-navigation a {
+   color: #ffffff;
+   font-size: 16px;
+   line-height: 20px;
+   font-weight: bold;
+   font-stretch: extra-condensed;
+   text-transform: uppercase;
+   text-decoration: none;
+ }
+
+ .user-block {
+   float: right;
+   width: 140px;
+   min-height: 70px;*/
+}
+
+.main-logo {
+  width: 368px;
+  height: 204px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 25px;
+}
+
+.features {
+  margin-bottom: 80px;
+}
+
+.features-item {
+  float: left;
+  width: 300px;
+  margin-right: 20px;
+  min-height: 175px;
+  text-align: center;
+}
+
+.features-item:last-child {
+  margin-right: 0;
+}
+
+.content {
+  margin-bottom: 35px;
+  padding: 50px 80px;
+  background-color: #F7F4F1;
+}
+
+.content-left {
+  float: left;
+  width: 380px;
+  min-height: 330px;  */
+}
+
+.content-right {
+  float: right;
+  width: 300px;
+  min-height: 330px; */
+}
+
+.main-footer {
+  margin-top: 65px;
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+
+.footer-contacts {
+  float: left;
+  width: 320px;
+  margin-right: 60px;
+  min-height: 120px; */
+}
+
+.footer-social {
+  float: left;
+  width: 180px;
+  min-height: 120px; */
+}
+
+.footer-copyright {
+  float: right;
+  width: 180px;
+  min-height: 120px; */
+}
+
+.content-title, .features-name, .features-item p {
+  color: #F7F4F1;
   font-size: 30px;
   font-weight: bold;
   line-height: 42px;
+  font-weight: bold;
+  font-stretch: extra-condensed;
+  text-transform: uppercase;
 }
 
-.features-name {
-  color: #f7f4f1;
+.content-title {
+  color: #000000;
+}
+
+.features-item p {
+  font-size: 14px;
+  line-height: 24px;
 }
